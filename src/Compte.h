@@ -5,7 +5,7 @@
 namespace pr {
 
 class Compte {
-	mutable mutex m;
+	mutable std::mutex m;
 	int solde;
 public :
 	Compte(int solde=0):solde(solde) {}
