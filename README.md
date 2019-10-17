@@ -5,7 +5,7 @@
 To use the project :
 *  Go to an empty folder (not your workspace)
 ```
-mkdir -p ;
+mkdir -p tme4 ; cd tme4 ;
 
 ```
 *  Clone the project, 
@@ -23,6 +23,7 @@ autoreconf -vfi
 in the root folder to build makefiles for your project.
 * Import in eclipse or open with your favorite editor
 For eclipse, `File->Import->existing projects into workspace`
+* To build, simply run `make` in the folder or select "Project->Build Project" in Eclipse.
 
 
 Look at the contents of "configure.ac", "Makefile.am" and "src/Makefile.am" which are the input to autotools, and are relatively simple and easy to read.
