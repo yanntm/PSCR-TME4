@@ -1,6 +1,8 @@
 # TME sujet semaine 4 : thread, atomic, mutex
 
-[Homepage](https://pages.lip6.fr/Yann.Thierry-Mieg/PR)
+[Programmation Système Répartie et Concurrente : Homepage](https://pages.lip6.fr/Yann.Thierry-Mieg/PR)
+
+[Sujet du TME en PDF](https://pages.lip6.fr/Yann.Thierry-Mieg/PR/tdtme4.pdf)
 
 To use the project :
 *  Go to an empty folder (not your workspace)
