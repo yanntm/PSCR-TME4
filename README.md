@@ -2,13 +2,27 @@
 
 [Homepage](https://pages.lip6.fr/Yann.Thierry-Mieg/PR)
 
+To use the project :
+*  Go to an empty folder (not your workspace)
+```
+mkdir -p ;
+
+```
+*  Clone the project, 
+```
+git clone https://github.com/yanntm/PSCR-TME4.git
+
+```
+* Reconfigure project.
 This project is compatible with [autoconf/automake](https://www.lrde.epita.fr/~adl/autotools.html), after cloning, use the mantra 
 ```
+cd PSCR-TME4
 autoreconf -vfi
 ./configure 
-make
 ```
-in the root folder to build the executable "src/tme4".
+in the root folder to build makefiles for your project.
+* Import in eclipse or open with your favorite editor
+For eclipse, `File->Import->existing projects into workspace`
 
 
 Look at the contents of "configure.ac", "Makefile.am" and "src/Makefile.am" which are the input to autotools, and are relatively simple and easy to read.
